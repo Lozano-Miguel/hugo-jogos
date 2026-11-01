@@ -10,5 +10,5 @@ export const T = {
   lastScore: 'Pontuação',
   highScore: 'Recorde',
   loading: 'A carregar…',
-  missingAssets: 'Faltam os ficheiros do jogo original. Corre "npm run extract" (vê o README).',
+  missingAssets: 'Erro ao carregar os ficheiros do jogo. Tenta recarregar a página.',
 } as const;
