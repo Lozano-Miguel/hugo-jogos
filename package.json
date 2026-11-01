@@ -1,0 +1,19 @@
+{
+  "name": "hugo-comboio",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Unofficial non-commercial fan recreation of the Hugo train game (PT-PT, 1998).",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "test": "vitest run",
+    "extract": "vite-node scripts/extract-assets.ts"
+  },
+  "devDependencies": {
+    "@types/node": "20.16.11",
+    "typescript": "5.6.3",
+    "vite": "5.4.10",
+    "vitest": "2.1.4"
+  }
+}

@@ -1,0 +1,8 @@
+node_modules
+dist
+original
+docs
+scripts
+.superpowers
+.playwright-mcp
+.claude
