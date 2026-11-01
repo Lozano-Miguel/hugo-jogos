@@ -33,7 +33,7 @@ export class Assets {
   private paletteCache = new Map<string, Promise<Palette>>();
 
   constructor(
-    private readonly baseUrl = '/data/',
+    private readonly baseUrl = `${import.meta.env.BASE_URL}data/`,
     private readonly fetchFn: typeof fetch = (...args) => fetch(...args),
   ) {}
 
